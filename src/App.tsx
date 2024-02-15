@@ -1,9 +1,11 @@
+import AppRoute from "./routers";
+
 function App() {
 
   return (
        <div>
-           <h2 className=""> Welcome to my pokemon app</h2>
+           <AppRoute/>
        </div>
   )
 }
-export default App
+export default App;
