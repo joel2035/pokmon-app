@@ -9,7 +9,7 @@ const Layout:FC<LayoutProps>  = ({children}) => {
     return (
         <>
             <Header/>
-            <main>
+            <main className="container">
                 {children}
             </main>
             <Footer/>
